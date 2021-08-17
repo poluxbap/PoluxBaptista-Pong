@@ -33,6 +33,7 @@ public class ButtonController : MonoBehaviour
         {
             startMenu.SetActive(false);
             gameManager.ResetBall();
+            gameManager.ReactivateTriggers();
         }
     }    
 
@@ -45,7 +46,6 @@ public class ButtonController : MonoBehaviour
                 return true;
             }
         }
-
         return false;
     }
 }

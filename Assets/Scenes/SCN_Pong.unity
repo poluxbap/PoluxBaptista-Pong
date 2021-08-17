@@ -686,8 +686,8 @@ MonoBehaviour:
   gameManager: {fileID: 617139911}
   players: []
   playerWarning:
-  - {fileID: 3879956061172554594}
   - {fileID: 1885249157}
+  - {fileID: 3879956061172554594}
 --- !u!1 &368232507
 GameObject:
   m_ObjectHideFlags: 0
@@ -3795,7 +3795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4593306539536027489, guid: 9a04da93f0141754cb6c35c0eec70738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4593306539536027489, guid: 9a04da93f0141754cb6c35c0eec70738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
